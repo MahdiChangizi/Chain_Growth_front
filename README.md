@@ -1,0 +1,1 @@
+Front project with tailwind
