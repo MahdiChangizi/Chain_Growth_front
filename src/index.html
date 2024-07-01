@@ -1,0 +1,382 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- <link href="./output.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./build.css">
+</head>
+<body>
+  <div class="relative text-white bg-black w-screen h-screen overflow-hidden">
+    <!-- baground ima -->
+    <img
+        class="h-full w-full max-w-full opacity-40 object-cover absolute top-0 bottom-0 left-0 right-0"
+        src="https://assets-global.website-files.com/6482c2823da5ac00e9aa2124/6482c2823da5ac00e9aa2177_home_img01.jpg" 
+        alt="img"
+    >
+
+    <!-- navigation -->
+    <div class="border-[#6d6c69] border-b-[1px] relative">
+        <div class="lg:h-[132px] lg:max-w-[1400px] flex justify-between items-center mx-auto p-6 lg:p-0">
+            <a href="" class="w-28 md:w-full">
+                <span class="md:text-2xl font-bold">Chain
+                    <span class="text-[#68dba2]">Growth</span>
+                </span>
+            </a>
+
+            <a id="openNav" class="border-2 border-[#68dba2] p-1 md:hidden flex">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-8"><path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75H12a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" /><path fill="#00FF00" fill-rule="evenodd" d="M3 17.25a.75.75 0 0 1 .75-.75H12a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" /></svg>
+            </a>
+
+            <!-- web -->
+            <div class="hidden lg:flex justify-end gap-20 items-center uppercase">
+                <a href="">Portfolio</a>
+                <a href="">Focus</a>
+                <a href="">Team</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+            
+            <!-- mobile -->
+            <div id="mobileNav" class="bg-black md:hidden hidden top-0 left-0 w-screen h-screen">
+                <div class="flex justify-between items-center mx-auto p-6 border-b-[1px] border-[#6d6c6975]">
+                    <a href="" class="w-32 md:w-full">
+                        <span class="text-xl font-bold">Chain
+                            <span class="text-[#68dba2]">Growth</span>
+                        </span>
+                    </a>
+                    <a id="closeNav" href="" class="border-[#68dba2] border-2 p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 border-b-2 border-[#68dba2]"><path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" /></svg>                          
+                    </a>
+                </div>
+
+                <div class="flex flex-col gap-6 px-8 py-20 uppercase text-5xl font-bold">
+                    <a class="hover:text-green-400" href="">Portfolio</a>
+                    <a class="hover:text-green-400" href="">Focus</a>
+                    <a class="hover:text-green-400" href="">Team</a>
+                    <a class="hover:text-green-400" href="">About</a>
+                    <a class="hover:text-green-400" href="">Contact</a>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!-- home -->
+    <main class="max-w-[1400px] min-h-full flex flex-col justify-center gap-10 py-24 mx-auto relative p-4">
+        <h1 class="text-[#68dba2] lg:text-8xl text-5xl font-bold md:max-w-[70%] leading-tight">We help growing business.</h1>
+        <p class="text-2xl md:max-w-[70%]">Our goal as a worldwide investment company is to assist entrepreneurs in creating exceptional businesses that enhance the quality of our lives, work, and leisure.</p>
+    </main>
+  </div>
+
+  <div class="relative text-white bg-[#43d58c] w-screen min-h-screen max-h-full overflow-hidden">
+    <!-- baground ima -->
+    <img
+        class="h-full w-full max-w-full opacity-40 object-cover absolute top-0 bottom-0 left-0 right-0"
+        src="https://assets-global.website-files.com/6482c2823da5ac00e9aa2124/6482c2823da5ac00e9aa2174_home_img02.jpg" 
+        alt="img"
+    >
+
+    <main class="lg:max-w-[1400px] h-full m-auto flex flex-col md:gap-20 gap-10 justify-around px-4 my-16 relative">
+        <h1 class="font-bold text-white md:text-3xl text-2xl">Who we are</h1>
+        <p class="md:text-7xl text-[42px] leading-snug text-black md:leading-snug">At Chain Growth, we collaborate with some of the most imaginative entrepreneurs and influential business leaders globally to establish genuinely groundbreaking businesses.</p>
+    
+        <div class="flex md:flex-row flex-col md:gap-12 gap-6">
+            <div>
+                <h1 class="text-8xl font-bold">50m+</h1>
+                <p class="text-2xl text-black">Assets under management</p>
+            </div>
+            <div>
+                <h1 class="text-8xl font-bold">3b+</h1>
+                <p class="text-2xl text-black">Portfolio value</p>
+            </div>
+            <div>
+                <h1 class="text-8xl font-bold">12+</h1>
+                <p class="text-2xl text-black">Portfolio companies</p>
+            </div>
+        </div>
+    </main>
+
+
+  </div>
+
+  <div class="relative bg-white text-white w-screen min-h-screen max-h-full overflow-hidden">
+    <!-- baground ima -->
+    
+
+    <main class="h-full flex flex-col md:gap-16 gap-10 justify-around px-4 my-16 relative">
+        <div class="lg:max-w-[1400px] m-auto">
+            <h1 class="font-bold text-[#43d58c] text-2xl uppercase">Portfolio</h1>
+            <p class="md:text-7xl text-[42px] leading-snug text-black md:leading-snug">
+                As the world evolves, portfolios should follow suit.
+            </p>
+        </div>
+        
+        <hr class="lg:max-w-[1400px] text-center mx-auto w-full my-14" />
+        <div class="lg:max-w-[1400px] m-auto grid lg:grid-cols-6 grid-cols-2 md:flex-row flex-col md:gap-6 gap-6">
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+            <a href="" class="h-[220px] hover:border-[1px] hover:border-gray-200 border-[1px] border-white flex items-center justify-center py-8 px-4">
+                <div class="">
+                    <img loading="lazy" id="w-node-_8fe8f965-bd6c-f699-8394-e09f0095125c-e9aa2106" alt="" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa213a/6482c2823da5ac00e9aa2173_sample_logo05.svg" class="image-contain">
+                </div>
+            </a>
+        </div>
+        <hr class="lg:max-w-[1400px] text-center mx-auto w-full my-14" />
+
+        <div class="lg:max-w-[1400px] mx-auto w-full font-bold text-black text-4xl flex items-center gap-4">
+            <h1>Our portfolio</h1>
+            <span class="mt-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" fill="currentColor" class="size-8">
+                    <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                </svg>
+            </span>
+        </div>
+        
+        
+        
+        <div class="text-black lg:text-[148px] text-[68px] text-nowrap md:h-screen h-[500px] flex flex-col justify-center marquee-container">
+            <p id="addressSpan" class="marquee left">
+                <span class="text-[#68dba2]">Healthcare/</span>
+                <span>AI / </span>
+                <span class="text-[#68dba2]">ML/</span>
+                <span>Crypto/</span>
+                <span class="text-[#68dba2]">Fintech/</span>
+                <span>IoT/</span>
+                <span class="text-[#68dba2]">NLP</span>
+            </p>
+            <p id="addressSpan2" class="marquee right">
+                <span>Cybersecurity/</span>
+                <span class="text-[#68dba2]">Paymen t/ </span>
+                <span>ML/</span>
+                <span class="text-[#68dba2]">Banks/</span>
+                <span>Fintech/</span>
+                <span class="text-[#68dba2]">Big Data/</span>
+                <span>Robotics</span>
+        </div>
+        
+        <script>
+            const addressSpan = document.getElementById('addressSpan');
+            const addressSpan2 = document.getElementById('addressSpan2');
+        
+            // تنظیم کردن حرکت به سمت چپ و راست
+            addressSpan.classList.add('left');
+            addressSpan2.classList.add('right');
+        </script>
+        
+        
+
+        <div class="lg:max-w-[1400px] m-auto h-full">
+            <div class="flex flex-col gap-2 md:gap-10 md:mb-20">
+                <h1 class="text-2xl text-[#68dba2] font-bold uppercase">Team</h1>
+                <p class="text-black md:text-[68px] text-[42px]">We believe collaboration makes us stronger and more effective as a team.</p>
+            </div>
+            <div class="relative md:h-[740px] h-[600px]">
+                <div class="bg-[#dddddd] absolute w-[100vw] md:top-0 left-0 bottom-0 right-[-99] md:h-full h-[530px]"></div>
+                <div class="bg-[#68dba2] absolute w-[100vw] top-auto md:left-[-62%] left-[-32px] bottom-0 right-0 md:h-[480px] h-[460px]"></div>
+                
+            <div class="absolute w-[100vw] md:top-[60px] md:left-10 md:bottom-0 -bottom-[83px] right-[-99] md:h-full h-[530px]">
+                <div class="w-full h-full mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="absolute md:bottom-[200px] top-0 md:top-auto left-0 right-0 z-10 md:w-[30%] w-[90%] text-left">
+                                <p class="text-[28px] md:text-[46px] md:leading-tight leading-[34px]">We take a long-term view and prioritize sustainable growth over short-term gains.</p>
+                                <div class="flex flex-col mt-6">
+                                    <span class="text-lg font-bold">Matthew Brown</span>
+                                    <span>Founder</span>
+                                </div>
+                            </div>
+                            <img class="object-cover w-[82%] sm:max-w-[77vw] md:max-w-[79vw] lg:max-w-[420px] xl:max-w-[600px]" alt="Team Profile Photo" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa2124/6482c2823da5ac00e9aa2168_Team_img_02.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="absolute md:bottom-[200px] top-0 md:top-auto left-0 right-0 z-10 md:w-[30%] w-[90%] text-left">
+                                <p class="text-[28px] md:text-[46px] md:leading-tight leading-[34px]">We take a long-term view and prioritize sustainable growth over short-term gains.</p>
+                                <div class="flex flex-col mt-6">
+                                    <span class="text-lg font-bold">Matthew Brown</span>
+                                    <span>Founder</span>
+                                </div>
+                            </div>
+                            <img class="object-cover w-[82%] sm:max-w-[77vw] md:max-w-[79vw] lg:max-w-[420px] xl:max-w-[600px]" alt="Team Profile Photo" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa2124/6482c2823da5ac00e9aa2165_Team_img_03.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="absolute md:bottom-[200px] top-0 md:top-auto left-0 right-0 z-10 md:w-[30%] w-[90%] text-left">
+                                <p class="text-[28px] md:text-[46px] md:leading-tight leading-[34px]">We take a long-term view and prioritize sustainable growth over short-term gains.</p>
+                                <div class="flex flex-col mt-6">
+                                    <span class="text-lg font-bold">Matthew Brown</span>
+                                    <span>Founder</span>
+                                </div>
+                            </div>
+                            <img class="object-cover w-[82%] sm:max-w-[77vw] md:max-w-[79vw] lg:max-w-[420px] xl:max-w-[600px]" alt="Team Profile Photo" src="https://assets-global.website-files.com/6482c2823da5ac00e9aa2124/6482c2823da5ac00e9aa2175_Team_img_07.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                  
+
+            </div>
+        </div>
+        
+        
+    
+
+    </main>
+
+  </div>
+
+
+  <footer class="relative bg-black text-white w-screen min-h-screen max-h-full lg:min-h-[700px] overflow-hidden">    
+
+    <main class="lg:max-w-[1400px] h-full m-auto flex flex-col md:gap-16 gap-10 justify-around px-4 my-16 relative">
+        <div class="flex flex-col lg:flex-row justify-between gap-8">
+            <div class="flex flex-col gap-8 text-xl text-[#707070]">
+                <h1>Chain Growth</h1>
+                <p>1600 Amphitheatre Parkway Mountain View, CA 94043</p>
+                <div>
+                    <p>Info@gmail.com</p>
+                    <p>+82 123 456 6731</p>
+                </div>
+                <div class="flex gap-4">
+                    <span>
+                        <img class="w-6" src="./images/twitter-154-svgrepo-com.svg" alt="twitter">
+                    </span>
+                    <span>
+                        <img class="w-6" src="./images/facebook-176-svgrepo-com.svg" alt="facebook">
+                    </span>
+                    <span>
+                        <img class="w-6" src="./images/instagram-svgrepo-com.svg" alt="instagram">
+                    </span>
+                    <span>
+                        <img class="w-6 ml-2" src="./images/youtube-168-svgrepo-com.svg" alt="youtube">
+                    </span>
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <a class="md:text-2xl uppercase hover:text-green-400" href="">Portfolio</a>
+                <a class="md:text-2xl uppercase hover:text-green-400" href="">Focus</a>
+                <a class="md:text-2xl uppercase hover:text-green-400" href="">Team</a>
+                <a class="md:text-2xl uppercase hover:text-green-400" href="">About</a>
+                <a class="md:text-2xl uppercase hover:text-green-400" href="">Contact</a>
+            </div>
+            <div class="flex flex-col gap-4">
+                <a class="md:text-2xl hover:text-green-400" href="">Style Guide</a>
+                <a class="md:text-2xl hover:text-green-400" href="">Licensing</a>
+                <a class="md:text-2xl hover:text-green-400" href="">Changelog</a>
+            </div>
+            <a href="">
+                <span class="text-5xl font-bold">Chain
+                    <span class="text-[#68dba2]">Growth</span>
+                </span>
+            </a>
+        </div>
+        <div class="flex flex-col gap-8">
+            <p class="text-[#707070]">Chain Growth is a venture capital firm based in California that is authorized and regulated by Progression Financial Services. It is common practice in the industry to use terminology that may imply that our firm is a single entity, but this is not the case. Our firm is comprised of multiple entities, each with their own distinct legal existence.</p>
+            
+            <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between">
+                <span class="uppercase">Designed by Head and Heart - Powered by  <span class="text-lg"> Chain</span> <span class="text-[#68dba2] text-lg"> Growth</span></span>
+                <span class="uppercase">Privacy Policy</span>
+            </div>
+        </div>
+    </main>
+
+
+  </footer>
+
+
+<script>
+    const openNav = document.querySelector('#openNav');
+    const mobileNav = document.querySelector('#mobileNav');
+    const closeNav = document.querySelector('#closeNav');
+
+    openNav.addEventListener('click', function() {
+        mobileNav.classList.remove('hidden');
+        setTimeout(() => {
+            mobileNav.classList.add('fixed');
+        }, 10); // کمی تاخیر برای اجرای ترنسفورم
+    });
+
+    closeNav.addEventListener('click', function() {
+        mobileNav.classList.add('closing');
+        mobileNav.classList.remove('fixed');
+        setTimeout(() => {
+            mobileNav.classList.add('hidden');
+            mobileNav.classList.remove('closing');
+        }, 800); // هماهنگ با مدت زمان ترنسفورم
+    });
+
+    var swiper = new Swiper(".mySwiper", {
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: true,
+        },
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+        loop: true,
+    });
+
+
+</script>
+
+</body>
+</html>

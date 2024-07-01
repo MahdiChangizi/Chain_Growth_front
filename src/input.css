@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#mobileNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-100%);
+    transition: transform 0.8s ease;
+    z-index: 1000;
+}
+
+#mobileNav.fixed {
+    transform: translateY(0);
+}
+
+#mobileNav.hidden {
+    display: none;
+}
+
+#mobileNav.closing {
+    transform: translateY(-100%);
+    transition: transform 0.8s ease;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
